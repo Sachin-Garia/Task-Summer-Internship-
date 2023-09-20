@@ -1,0 +1,24 @@
+ .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  label, input {
+    display: block;
+    width: 100%;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  input[type="submit"] {
+    background-color:chocolate;
+    color: white;
+    text-transform:uppercase;
+    padding: 6px;
+    width: 36%;
+    margin-left: 130px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  input[type="submit"]:hover {
+    background-color:coral;
+  }

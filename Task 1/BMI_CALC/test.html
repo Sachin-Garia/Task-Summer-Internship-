@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body style="text-align: center;">
+    <h1>BMI CALCULATOR</h1>
+    <br>
+    <h2>Weight (in Kilograms) <input id="Weight"> / Height (in meters): <input id="height"><sup>2</sup> = <input id="result"></h2>
+    <button id="btn" onclick="bmi()" style="border-style: none; border-radius: 30px; background-color: tomato; font-size: large; color: aliceblue;">Calculate</button>
+    <script>
+        document.getElementById("result").value = 0
+        function bmi() {
+            var weight = parseFloat(document.getElementById("Weight").value);
+            var height = parseFloat(document.getElementById("height").value);
+            var result = weight / (height * height);
+            document.getElementById("result").value = result.toFixed(2); // Round to two decimal places
+        }
+    </script>
+</body>
+</html>

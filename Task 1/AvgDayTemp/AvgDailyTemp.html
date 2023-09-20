@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24 Hour Average</title>
+</head>
+<body style="text-align: center;">
+    <h1>DAILY AVERAGE TEMPERATURE CALCULATOR</h1>
+    <br>
+    <h2>MaximumTemp/Day <input type="number" id="MaxInput"> + MinimumTemp/Day <input type="number" id="MinInput">  =  <input type="number" id="resultInput"></h2>
+    <br>
+    <button id=submitBtn onclick="avgtemp()" style="border-radius: 25px;border-style: none;background-color:tomato;font-size: 22px;color:white;">Result</button>
+    <script>
+        document.getElementById("resultInput").value = 0
+        function avgtemp() {
+            var Mintemp = parseFloat(document.getElementById("MinInput").value)
+            var Maxtemp = parseFloat(document.getElementById("MaxInput").value)
+            document.getElementById("resultInput").value = (Maxtemp + Mintemp) / 2
+        }
+    </script>
+</body>
+</html>

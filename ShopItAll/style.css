@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: royalblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    gap: 10px;
+}
+
+/* Styling for the search input */
+.nav3 {
+    margin-left: auto;
+}
+
+.search {
+    padding: 5px 7px;
+    border: none;
+}
+
+/* Styling for the hero section */
+.hero-container {
+    padding-top: 60px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.hero-image {
+    position: relative;
+    display: inline-block;
+}
+
+.foodcounter-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+}
+
+/* Styling for the food navigation section */
+.food-nav-container {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.veg,
+.nonveg {
+    margin: 40px;
+}
+
+.veg h1,
+.nonveg h1 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.showcase-images {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,24 @@
+/* Write your code here: */
+h1,h2 {
+    color: green;
+}
+
+li {
+    color: green;
+}
+
+p[class=done] {
+    color: brown;
+}
+
+li {
+    color: blue;
+}
+
+li[class=done] {
+    color: green;
+}
+
+ul p[class=done] {
+    color: black;
+}
